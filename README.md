@@ -2,9 +2,7 @@
  
 > *"The cards know what you don't."*
 
-## 🎬 Demo
-
-https://github.com/Berkay-Cetin/balatro-oracle/blob/main/demo.webm
+![Demo](demo.gif)
  
 A mystical fortune-telling web app built around the world of [Balatro](https://www.playbalatro.com). Draw a card, reveal your fate — powered by AI and the actual shader from the game itself.
  
