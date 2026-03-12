@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-deep:        #0a0510;
+  --bg-mid:         #100818;
+  --bg-surface:     #180d24;
+  --bg-elevated:    #221235;
+  --primary:        #fd5f55;
+  --primary-bright: #ff8a82;
+  --primary-dim:    #7a1a14;
+  --accent:         #009cfd;
+  --accent-bright:  #4dc8ff;
+  --accent-dim:     #004880;
+  --gold:           #fda200;
+  --gold-bright:    #ffc84a;
+  --gold-dim:       #7a5500;
+  --text-primary:   #f5eeff;
+  --text-secondary: #b8a0d8;
+  --text-muted:     #5a4070;
+  --border:         rgba(253,95,85,0.15);
+  --border-hover:   rgba(253,95,85,0.45);
+  --border-blue:    rgba(0,156,253,0.2);
+  --radius:         6px;
+  --radius-lg:      12px;
+  --transition:     0.2s ease;
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: 'Crimson Pro', Georgia, serif;
+  background: #0a0510;
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  background: rgba(10,5,16,0.45);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-deep); }
+::-webkit-scrollbar-thumb { background: var(--primary-dim); border-radius: 3px; }
