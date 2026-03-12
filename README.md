@@ -1,4 +1,10 @@
 # 🃏 Balatro Card Oracle
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite)
+![WebGL](https://img.shields.io/badge/WebGL-GLSL_Shader-990000?style=flat&logo=webgl)
+![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-F55036?style=flat&logo=groq)
  
 > *"The cards know what you don't."*
 
